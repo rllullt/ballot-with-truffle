@@ -174,3 +174,5 @@ cython_debug/
 
 # Personalized log files
 .*log*.txt
+
+node_modules/
