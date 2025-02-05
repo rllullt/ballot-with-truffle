@@ -47,6 +47,11 @@ module.exports = {
      // port: 8545,            // Standard Ethereum port (default: none)
      // network_id: "*",       // Any network (default: none)
     // },
+    development: {
+      host: "localhost",
+      port: 9545,  // RPC port for test chain provided by truffle (command `truffle develop`)
+      network_id: "*",
+    }
 
     // Another network with more advanced options...
     // advanced: {
